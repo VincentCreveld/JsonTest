@@ -9,7 +9,7 @@ public enum Characters { alien, cook, farmer, geekyGirl, hotdog, jorji, lightBul
 
 //This is a storage class to hold 2 dialogs. It keeps a state depending on the dis-/approve bottun hit. It get's handled in the resourcesManager.
 [Serializable]
-public class Choice : ScriptableObject {
+public class Choice {
     [Header("Dilemma: ")]
     [TextArea()]
     public string Dilemma;

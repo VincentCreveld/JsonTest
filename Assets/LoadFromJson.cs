@@ -12,7 +12,7 @@ public class LoadFromJson : MonoBehaviour {
 	private ChoicesContainer choices;
 
 	private void Awake() {
-		dataPath = Application.streamingAssetsPath + "/jsonTest.json";
+		dataPath = Application.streamingAssetsPath + "/Choices.json";
 	}
 
 	[ContextMenu("LoadFromJson")]
@@ -22,7 +22,7 @@ public class LoadFromJson : MonoBehaviour {
 			choices = JsonConvert.DeserializeObject<ChoicesContainer>(json);
 			
 			//choices = JsonUtility.FromJson<ChoicesContainer>(json);
-			Debug.Log($"Length of choices: {choices.choices.Length}");
+			//Debug.Log($"Length of choices: {choices.choices.Length}");
 		}
 	}
 }

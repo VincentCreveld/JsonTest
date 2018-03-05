@@ -6,7 +6,7 @@ using System;
 //This is a storage class that contains the values to change for a single resource.
 [CreateAssetMenu(menuName = "ResourceMessage")]
 [Serializable]
-public class ResourceMessage : ScriptableObject{
+public class ResourceMessage{
 	public Resources resourceType;
 	public bool isToday = true;
 	public int amount;

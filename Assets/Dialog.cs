@@ -3,7 +3,7 @@ using System;
 
 //This class is a storage container which is meant to pass on resource changes.
 [Serializable]
-public class Dialog : ScriptableObject{
+public class Dialog{
     [Header("Influence the following items")]
 	public ResourceMessage[] messages;
 

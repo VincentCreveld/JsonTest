@@ -1,0 +1,89 @@
+{
+"choices":[{
+	"Dilemma": "Dilemma text here",
+	"Name": "Character name here",
+	"character" : "0",
+	"State" : "0", 
+    "PositiveDialog": {
+        "messages": [
+            {
+            "resourceType": "0",
+            "isToday": "true",
+                "amount" : "0"
+        },
+            {
+            "resourceType": "1",
+            "isToday": "true",
+                "amount" : "0"
+        },
+            {
+            "resourceType": "2",
+            "isToday": "true",
+                "amount" : "0"
+        },
+            {
+            "resourceType": "3",
+            "isToday": "true",
+                "amount" : "0"
+        },
+            {
+            "resourceType": "4",
+            "isToday": "true",
+                "amount" : "0"
+        },
+            {
+            "resourceType": "5",
+            "isToday": "true",
+                "amount" : "0"
+        },
+            {
+            "resourceType": "6",
+            "isToday": "true",
+                "amount" : "0"
+        }
+            ],
+        "text": "DialogTextPos"
+    },
+    "NegativeDialog": {
+        "messages": [
+            {
+            "resourceType": "0",
+            "isToday": "true",
+                "amount" : "0"
+        },
+            {
+            "resourceType": "1",
+            "isToday": "true",
+                "amount" : "0"
+        },
+            {
+            "resourceType": "2",
+            "isToday": "true",
+                "amount" : "0"
+        },
+            {
+            "resourceType": "3",
+            "isToday": "true",
+                "amount" : "0"
+        },
+            {
+            "resourceType": "4",
+            "isToday": "true",
+                "amount" : "0"
+        },
+            {
+            "resourceType": "5",
+            "isToday": "true",
+                "amount" : "0"
+        },
+            {
+            "resourceType": "6",
+            "isToday": "true",
+                "amount" : "0"
+        }
+            ],
+        "text": "DialogTextNeg"
+    }
+}
+]
+}
